@@ -71,4 +71,4 @@ for name in ['land', 'air', 'mixed']:
         dataframe = dataframe.set_index('zone')
 
     file_path = os.path.dirname(os.path.realpath(__file__)) + '/../{}_zones.csv'.format(name)
-    dataframe.to_csv(file_path)
+    dataframe.to_csv(file_path, encoding='utf-8')

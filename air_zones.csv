@@ -24,7 +24,7 @@ zone,code,shipping_method,country_en
 3,IO,air,British Indian Ocean territor
 3,GS,air,South Georgia and The South Sandwich islands
 4,TG,air,TOGO
-4,ST,air,S√O TOM… AND PRÕNCIPE
+4,ST,air,S√ÉO TOM√â AND PR√çNCIPE
 4,TD,air,CHAD
 4,AS,air,AMERICAN SAMOA
 4,CF,air,CENTRAL AFRICAN Rep.
@@ -36,14 +36,14 @@ zone,code,shipping_method,country_en
 4,GM,air,GAMBIA
 4,LR,air,LIBERIA
 4,BF,air,BURKINA FASO
-4,LC,air,SAINT-LUCI?
+4,LC,air,SAINT-LUCI–ê
 4,GW,air,GUINEA-BISSAU
 4,ER,air,ERITREA
 4,NG,air,NIGERIA
 4,SL,air,SIERRA LEONE
 4,SD,air,SUDAN
 5,KN,air,SAINT-CHRISTOPHER (SAINT KITTS) and NEVIS
-5,RE,air,R…UNION
+5,RE,air,R√âUNION
 5,MQ,air,MARTINIQUE
 5,VC,air,ST.-VINCENT and TheGRENADINES
 5,HT,air,HAITI
@@ -64,7 +64,7 @@ zone,code,shipping_method,country_en
 5,GN,air,GUINEA
 5,GA,air,GABON
 5,BM,air,BERMUDA ISLANDS
-5,CI,air,C‘TE D'IVOIRE
+5,CI,air,C√îTE D'IVOIRE
 5,CL,air,CHILE - EASTER ISLANDS
 5,TC,air,TURKS and CAICOS ISLANDS
 5,BS,air,BAHAMAS

@@ -63,6 +63,8 @@ for name in ['land', 'air', 'mixed']:
 
     if name == 'mixed':
         dataframe = dataframe[['code', 'land_zone', 'air_zone', 'country_en']]
+        dataframe = dataframe.sort_values('country_en')
+        dataframe = dataframe.set_index('code')
     else:
         dataframe = dataframe[['code', 'shipping_method', 'zone', 'country_en']]
         dataframe = dataframe.sort_values('zone')

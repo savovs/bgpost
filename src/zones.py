@@ -1,6 +1,6 @@
 # Zones taken from http://www.bgpost.bg/bg/347
 # BG Posts apply a 1.50 euro tax for orders above 2kg!
-import os
+import os, math
 import pandas as pd
 
 xls = pd.ExcelFile("../zones.xls")
@@ -23,16 +23,17 @@ df.columns = headers
 # Remove first row containing old column names
 df = df.iloc[1:]
 
-
-
-
-
 # Create new columns
 df['shipping_method'] = ''
 df['zone'] = ''
 
 def addShippingMethod(row):
-    if type(row['land_zone']) is str:
+    if (type(row['land_zone']) is not str) and (type(row['air_zone']) is not str):
+        if not math.isnan(row['land_zone']) and not math.isnan(row['air_zone']):
+            row['shipping_method'] = 'mixed'
+            row['zone'] = 'mixed'
+
+    elif type(row['land_zone']) is str:
         row['shipping_method'] = 'air'
         row['zone'] = row['air_zone']
 
@@ -41,32 +42,31 @@ def addShippingMethod(row):
         row['zone'] = row['land_zone']
 
     return row
-    
+
+# Fill the new columns
 df.apply(addShippingMethod, axis=1)
 
 # Remove rows in column 'code' containing spaces using regex
 pattern = r'(^.*\s.*$)'
 df = df[df['code'].str.contains(pattern) == False]
 
-# Remove Somalia ¯\_(ツ)_/¯
+# Remove Somalia ¯\_(ツ)_/¯ щото БГ пощи не пращат до там
 df = df[df['code'] != 'SO']
 
 pd.set_option('display.width', 1080)
 with pd.option_context('display.max_rows', None, 'display.max_columns', 7):
-    print(df[['country_en', 'zone', 'shipping_method']])
-
-    # Ако искаш да провериш дали е правилно:
-    # print(df[['code', 'country_en', 'zone', 'shipping_method',  'land_zone', 'air_zone']])
+    # Check to see if new columns are correct
+    print(df[['code', 'country_en', 'zone', 'shipping_method',  'land_zone', 'air_zone']])
 
 for name in ['land', 'air', 'mixed']:
-    if name == 'mixed':
-        dataframe = df
-    else:
-        dataframe = df[df['shipping_method'] == name]
+    dataframe = df[df['shipping_method'] == name]
 
-    dataframe = dataframe[['code', 'shipping_method', 'zone', 'country_en']]
-    dataframe = dataframe.sort_values('zone')
-    dataframe = dataframe.set_index('zone')
+    if name == 'mixed':
+        dataframe = dataframe[['code', 'land_zone', 'air_zone', 'country_en']]
+    else:
+        dataframe = dataframe[['code', 'shipping_method', 'zone', 'country_en']]
+        dataframe = dataframe.sort_values('zone')
+        dataframe = dataframe.set_index('zone')
 
     file_path = os.path.dirname(os.path.realpath(__file__)) + '/../{}_zones.csv'.format(name)
     dataframe.to_csv(file_path)

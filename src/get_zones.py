@@ -27,7 +27,7 @@ df = df.iloc[1:]
 df['shipping_method'] = ''
 df['zone'] = ''
 
-def addShippingMethod(row):
+def add_shipping_method(row):
     if (type(row['land_zone']) is not str) and (type(row['air_zone']) is not str):
         if not math.isnan(row['land_zone']) and not math.isnan(row['air_zone']):
             row['shipping_method'] = 'mixed'
@@ -44,7 +44,7 @@ def addShippingMethod(row):
     return row
 
 # Fill the new columns
-df.apply(addShippingMethod, axis=1)
+df.apply(add_shipping_method, axis=1)
 
 # Remove rows in column 'code' containing spaces using regex
 pattern = r'(^.*\s.*$)'

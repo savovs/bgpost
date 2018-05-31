@@ -2,10 +2,10 @@
 import os
 import pandas as pd
 
-data = pd.read_html("http://www.bgpost.bg/bg/347", match="тегло")
+data = pd.read_html('http://www.bgpost.bg/bg/347', match='тегло')
 
-print("Цени Земен Път \n", data[0], "\n\n")
-print("Цени Въздушен Път \n", data[1], "\n\n")
+print('Цени Земен Път БГ Пощи \n', data[0], '\n\n')
+print('Цени Въздушен Път БГ Пощи \n', data[1], '\n\n')
 
 path = os.path.dirname(os.path.realpath(__file__))
 
@@ -22,3 +22,4 @@ for index, name in enumerate(['land', 'air']):
 
     file_path = path + '/../{}_prices.csv'.format(name)
     df.to_csv(file_path, encoding='utf-8')
+

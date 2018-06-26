@@ -1,4 +1,4 @@
-# БГ Пощи прилагат такса 1.50 евро за поръчки над 2кг!
+# БГ Пощи прилагат такса 1.50 евро за поръчки над 2кг
 import os
 import pandas as pd
 
@@ -22,4 +22,3 @@ for index, name in enumerate(['land', 'air']):
 
     file_path = path + '/../{}_prices.csv'.format(name)
     df.to_csv(file_path, encoding='utf-8')
-

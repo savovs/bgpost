@@ -1,0 +1,247 @@
+zone_small_packages,code,land_zone,air_zone,country_en
+1,RS,1,по земен път,SERBIA  (Ex.YUGOSLAVIA)
+1,MK,1,по земен път,MACEDONIA /Dem.Rep./
+1,GR,1,1,GREECE
+1,TR,1,по земен път,TURKEY
+1,RO,2,2,ROMANIA
+2,FO,4,3,FAROE ISLANDS
+2,DK,2,2,DENMARK
+2,DE,2,2,GERMANY
+2,UA,3,3,UKRAINE
+2,HU,2,2,HUNGARY
+2,FI,3,2,FINLAND
+2,AX,по въздушен път,2,ALAND ISLANDS
+2,GI,3,2,GIBRALTAR
+2,FR,2,2,FRANCE ( Corsica )
+2,AD,2,2,ANDORRA
+2,MC,2,2,MONACO
+2,MT,4,3,MALTА
+2,SI,1,1,SLOVENIA
+2,SK,1,1,SLOVAKIA
+2,EE,3,3,ESTONIA
+2,IE,3,2,IRELAND
+2,IS,по въздушен път,3,ICELAND
+2,ES,3,2,"Spain  (Incl. Balearic Isls, Canary Isls, Ceuta and Melila)"
+2,IT,2,2,ITALY 
+2,SM,2,2,San Marino
+2,RU,2,3,RUSSIA
+2,PT,3,2,PORTUGAL
+2,PL,2,2,POLAND
+2,SJ,по въздушен път,3,Svaldard and Jan mayen
+2,NO,4,3,NORWAY
+2,LV,по въздушен път,2,LATVIA
+2,LU,1,1,LUXEMBOURG
+2,MD,2,3,MOLDOVA
+2,GG,4,3,GUERNSEY
+2,IM,4,3,ISLE OF MAN
+2,LT,по въздушен път,2,LITHUANIA
+2,HR,1,1,CROATIA
+2,BE,2,2,BELGIUM
+2,BA,3,2,BOSNIA & HERZEGOVINA
+2,AT,1,1,AUSTRIA
+2,AL,1,по земен път,ALBANIA
+2,CH,1,1,SWITZERLAND 
+2,BY,4,3,BELARUS
+2,LI,1,1,LIECHTENSTEIN
+2,NL,2,2,THE NETHERLANDS
+2,SE,3,2,SWEDEN
+2,CZ,1,1,CZECH
+2,GB,4,3,UNITED KINGDOM OF GREAT BRITAIN  and NORTHERN IRELAND
+2,JE,4,3,JERSEY
+2,ME,3,по земен път,MONTENEGRO
+3,SA,по въздушен път,2,SAUDI ARABIA
+3,PY,5,4,PARAGUAY
+3,TD,по въздушен път,4,CHAD
+3,PE,5,4,PERU
+3,CL,по въздушен път,5,CHILE - EASTER ISLANDS
+3,PW,4,4,PALAU REPUBLIC
+3,MP,4,4,NORTHERN MARIANA ISLANDS
+3,RW,5,5,RWANDA
+3,MH,4,по земен път,MARSHAL ISLANDS
+3,CL,6,5,CHILE (MAINLAND)
+3,GU,4,4,GUAM
+3,WS,по въздушен път,6,SAMOA (WESTERN SAMOA)
+3,ST,по въздушен път,4,SÃO TOMÉ AND PRÍNCIPE
+3,US,4,4,"USA 
+(Incl. Guam,  Samoa, Virgin Islands of the USA)"
+3,PG,по въздушен път,6,PAPUA NEW GUINEA
+3,GP,по въздушен път,5,GUADELOUPE (incl. St.Barthelemy and St.Martin)
+3,PS,по въздушен път,2,PALESTINE
+3,MM,по въздушен път,6,MYANMAR /BURMA/
+3,FM,по въздушен път,4,MICRONESIA
+3,MZ,5,4,MOZAMBIQUE
+3,ZA,4,4,SOUTH AFRICA
+3,LK,3,5,SRI LANKA
+3,MN,по въздушен път,4,MONGOLIA
+3,NR,по въздушен път,6,NAURU
+3,NP,по въздушен път,3,NEPAL
+3,NE,по въздушен път,3,NIGER
+3,NG,по въздушен път,4,NIGERIA
+3,NI,6,5,NICARAGUA
+3,NZ,4,6,NEW ZEALAND (inc. Ross dependency)
+3,CK,по въздушен път,6,COOK ISLANDS
+3,NU,по въздушен път,6,NIUE
+3,TK,по въздушен път,6,TOKELAU ISLAND
+3,BV,по въздушен път,3,BOUVET ISLANDS
+3,AE,2,2,UNITED ARAB EMIRATES
+3,OM,4,3,OMAN
+3,CF,по въздушен път,4,CENTRAL AFRICAN Rep.
+3,PA,6,5,PANAMA
+3,PK,4,3,PAKISTAN
+3,PR,4,4,Puerto Rico
+3,AS,по въздушен път,4,AMERICAN SAMOA
+3,TT,по въздушен път,5,TRINIDAD and TOBAGO
+3,TV,по въздушен път,6,TUVALU
+3,TN,4,4,TUNISIA
+3,TM,3,2,TURKMENISTAN
+3,HT,по въздушен път,5,HAITI
+3,UG,4,4,UGANDA
+3,UZ,4,3,UZBEKISTAN
+3,TF,по въздушен път,2,French Southern Territories and Antarctic
+3,PF,по въздушен път,6,FRENCH POLYNESIA (incl.Clipperton Island)
+3,UY,по въздушен път,5,URUGUAY
+3,FJ,4,6,FIJI
+3,PH,6,5,PHILIPPINES
+3,GF,по въздушен път,6,FRENCH GUIANA
+3,PM,по въздушен път,6,Territorial Community of St. PIERRE and MIQUELON
+3,RE,по въздушен път,5,RÉUNION
+3,NC,по въздушен път,6,NEW CALEDONIA
+3,MQ,по въздушен път,5,MARTINIQUE
+3,YT,по въздушен път,6,Territorial Community of MAYOTTE
+3,WF,по въздушен път,6,WALLIS and FUTUNA ISLANDS
+3,TO,по въздушен път,6,TONGA (Incl. Niuafo'ou)
+3,HN,5,5,HONDURAS
+3,TG,по въздушен път,4,TOGO
+3,TH,4,3,THAILAND
+3,VI,4,4,Virgin Islands
+3,SZ,по въздушен път,3,SWAZILAND
+3,SC,по въздушен път,6,SEYCHELLES
+3,VC,по въздушен път,5,ST.-VINCENT and TheGRENADINES
+3,KN,по въздушен път,5,SAINT-CHRISTOPHER (SAINT KITTS) and NEVIS
+3,LC,по въздушен път,4,SAINT-LUCIА
+3,SN,4,3,SENEGAL
+3,SL,по въздушен път,4,SIERRA LEONE
+3,AW,по въздушен път,5,ARUBA
+3,SG,4,3,SINGAPORE
+3,SY,2,2,SYRIA     
+3,SX,по въздушен път,5,ST. MAARTEN
+3,SB,по въздушен път,6,SOLOMON ISLANDS
+3,SD,по въздушен път,4,SUDAN
+3,SS,по въздушен път,2,SOUTH SUDAN
+3,SR,по въздушен път,5,SURINAME
+3,BQ,по въздушен път,6,"DUTCH CARIBBEAN (incl.Bonaire, Saba and St.Eustatius )"
+3,CW,по въздушен път,6,CURACAO
+3,TJ,по въздушен път,3,TAJIIKISTAN
+3,TZ,по въздушен път,3,TANZANIA
+3,MX,4,3,MEXICO
+3,AF,6,5,AFGHANISTAN
+3,ML,по въздушен път,4,MALI
+3,AI,по въздушен път,5,ANGUILLA
+3,IO,по въздушен път,3,British Indian Ocean territor
+3,BM,по въздушен път,5,BERMUDA ISLANDS
+3,KY,по въздушен път,6,CAYMAN ISLANDS
+3,MS,по въздушен път,5,MONTSERRAT
+3,PN,4,по земен път,PITCAIRN ISLANDS
+3,SH,2,по земен път,St. HELENA
+3,АС,2,по земен път, ASCENSION
+3,TA,2,по земен път,TRISTAN DA CUNHA
+3,TC,по въздушен път,5,TURKS and CAICOS ISLANDS
+3,FK,по въздушен път,6,FALKLAND ISLAND /MALVINAS/
+3,VG,по въздушен път,5,BRITISH VIRGIN ISLANDS
+3,VE,3,4,VENEZUELA
+3,VN,4,3,VIETNAM
+3,GA,по въздушен път,5,GABON
+3,GM,по въздушен път,4,GAMBIA
+3,GH,3,3,GHANA
+3,GT,5,4,GUATEMALA
+3,GY,3,5,GUYANA
+3,GN,по въздушен път,5,GUINEA
+3,GW,по въздушен път,4,GUINEA-BISSAU
+3,GD,по въздушен път,5,GRENADA
+3,GE,5,4,GEORGIA
+3,GS,по въздушен път,3,South Georgia and The South Sandwich islands
+3,VA,по въздушен път,1,VATICAN CITY
+3,VU,по въздушен път,6,VANUATU
+3,BT,4,3,BHUTAN
+3,AU,4,5,AUSTRALIA
+3,CX,4,5,CHRISTMAS ISLANDS
+3,CC,4,5,COCOS ISLANDS
+3,HM,4,5,HEARD ISLANDS AND MCDONALD ISLANDS
+3,NF,4,5,NORFOLK ISLANDS
+3,AZ,4,3,AZERBAIJAN
+3,DZ,3,2,ALGERIA
+3,AO,4,3,ANGOLA
+3,AG,по въздушен път,5,ANTIGUA & BARBUDA
+3,AR,5,5,ARGENTINA
+3,AM,по въздушен път,3,ARMENIA
+3,GL,5,4,GREENLAND
+3,BD,4,3,BANGLADESH
+3,BS,по въздушен път,5,BAHAMAS
+3,BH,3,2,KINGDOM OF BAHRAIN
+3,BZ,по въздушен път,6,BELIZE
+3,BJ,по въздушен път,4,BENIN
+3,BO,по въздушен път,6,BOLIVIA
+3,BW,5,4,BOTSWANA
+3,BR,3,4,BRAZIL
+3,BN,5,6,BRUNEI DARUSSALAM
+3,CI,по въздушен път,5,CÔTE D'IVOIRE
+3,BF,по въздушен път,4,BURKINA FASO
+3,BI,5,5,BURUNDI
+3,BB,6,5,BARBADOS
+3,DJ,4,4,DJIBOUTI
+3,DM,по въздушен път,5,DOMINICA
+3,DO,4,5,DOMINICAN REPUBLIC
+3,HK,3,3,HONG KONG
+3,TW,5,4,TAIWAN
+3,CO,4,5,COLOMBIА
+3,KM,5,4,COMOROS
+3,CD,по въздушен път,5,CONGO Dem. Rep. (Zaire)
+3,CG,3,4,CONGO (Rep.Brazivile)
+3,KP,4,3,COREA Dem.Peop.Rep. /Nord/
+3,KR,4,3,COREA Rep. /South/
+3,CR,по въздушен път,5,COSTA RICA
+3,XZ,1,по земен път,KOSOVO
+3,CU,4,4,CUBA
+3,MO,4,3,MACAO
+3,KW,4,3,KUWAIT
+3,LS,5,4,LESOTHO
+3,LR,по въздушен път,4,LIBERIA
+3,LY,по въздушен път,3,LIBYA
+3,LB,4,3,LEBANON
+3,JM,по въздушен път,6,JAMAICA
+3,MR,по въздушен път,4,MAURITANIA
+3,MU,5,4,MAURITIUS (incl.Chagos Archipelago)
+3,MG,6,6,MADAGASCAR
+3,MW,6,6,MALAWI
+3,MY,3,3,MALAYSIA (Incl.Sabah and Sarawak)
+3,MV,4,4,MALDIVES
+3,LA,6,6,LAOS
+3,MA,2,2,MOROCCO
+3,CN,3,3,CHINA
+3,KG,3,2,KYRGYZSTAN
+3,EG,4,3,EGYPT
+3,EC,5,5,ECUADOR
+3,GQ,5,4,EQUATERIAL GUINEA
+3,SV,6,5,EL SALVADOR
+3,ER,по въздушен път,4,ERITREA
+3,ET,по въздушен път,3,ETHIOPIA
+3,ZM,5,4,ZAMBIA
+3,CV,по въздушен път,3,CAPE VERDE
+3,ZW,6,5,ZIMBABWE
+3,IL,2,3,ISRAEL
+3,TL,по въздушен път,6,EAST TIMOR
+3,KI,по въздушен път,6,KIRIBATI
+3,IN,3,3,INDIA
+3,IQ,2,2,IRAQ
+3,IR,2,3,IRAN
+3,YE,по въздушен път,3,YEMEN 
+3,JO,3,3,JORDAN
+3,KZ,3,4,KAZAKHSTAN
+3,KH,по въздушен път,3,CAMBODIA
+3,CM,5,4,CAMEROON
+3,CA,4,3,CANADA
+3,QA,3,2,QATAR
+3,KE,3,4,KENYA
+3,CY,1,2,CYPRUS
+3,ID,4,4,INDONESIA
+3,JP,3,3,JAPAN

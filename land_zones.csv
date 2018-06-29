@@ -1,12 +1,12 @@
-zone,code,shipping_method,country_en
-1,AL,land,ALBANIA
-1,XZ,land,KOSOVO
-1,MK,land,MACEDONIA /Dem.Rep./
-1,RS,land,SERBIA  (Ex.YUGOSLAVIA)
-1,TR,land,TURKEY
-2,SH,land,St. HELENA
-2,АС,land, ASCENSION
-2,TA,land,TRISTAN DA CUNHA
-3,ME,land,MONTENEGRO
-4,PN,land,PITCAIRN ISLANDS
-4,MH,land,MARSHAL ISLANDS
+zone,code,shipping_method,country_en,zone_small_packages
+1,AL,land,ALBANIA,2
+1,XZ,land,KOSOVO,3
+1,MK,land,MACEDONIA /Dem.Rep./,1
+1,RS,land,SERBIA  (Ex.YUGOSLAVIA),1
+1,TR,land,TURKEY,1
+2,SH,land,St. HELENA,3
+2,АС,land, ASCENSION,3
+2,TA,land,TRISTAN DA CUNHA,3
+3,ME,land,MONTENEGRO,2
+4,PN,land,PITCAIRN ISLANDS,3
+4,MH,land,MARSHAL ISLANDS,3
